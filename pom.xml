@@ -134,6 +134,7 @@
                     </systemPropertyVariables>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <excludes>
+                        <exclude>org/jsecurity/web/servlet/JSecurityFilterTest.java</exclude>
                         <exclude>**/JSecurityFilterTest.java</exclude>
                     </excludes>
                 </configuration>
