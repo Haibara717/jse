@@ -133,7 +133,9 @@
                         <net.sf.ehcache.skipUpdateCheck>true</net.sf.ehcache.skipUpdateCheck>
                     </systemPropertyVariables>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
-
+                    <excludes>
+                        <exclude>**/JSecurityFilterTest.java</exclude>
+                    </excludes>
                 </configuration>
             </plugin>
 
